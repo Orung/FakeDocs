@@ -20,8 +20,9 @@
 }
 .advanced_search_section > form input {
   background-color: var(--light-color);
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0px 10px rgba(66, 19, 19, 0.048) inset;
+  /* width: 65vw; */
 }
 .advanced_search_section > form select {
   width: 100%;
@@ -43,4 +44,24 @@
 .advanced_search_section > form button i {
   position: relative;
   left: 10px !important;
+}
+
+.patient_container  .patient_list {
+  border: 2px solid var(--light-color-3);
+  border-radius: 20px 20px 20px 20px !important;
+  padding: 1rem 2rem;
+  margin: 30px;
+}
+.patient_container .patient_list a:hover {
+  color: #ff7e34;
+}
+.patient_list  li {
+  border-bottom: 1px solid rgba(43, 2, 2, 0.1);
+  padding: 1rem 0rem;
+}
+.patient_list  li:last-child {
+  border-bottom: 0px;
+}
+.mb-2 {
+  margin-bottom: 1rem;
 }

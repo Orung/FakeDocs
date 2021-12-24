@@ -801,18 +801,19 @@
                   id="patientFilterForm"
                   method="get"
                 >
-                  <div class="form_group">
+                  <div class="form_group mb-2">
                     <label for="patientsAjaxSearch"
                       >Enter patient details</label
                     >
                     <input
                       required
                       type="text"
+                      name="search"
                       id="patientsAjaxSearch"
                       placeholder="Enter patient details"
                     />
                   </div>
-                  <div class="form_group">
+                  <!-- <div class="form_group">
                     <select name="filter_options" required id="filter">
                       <option disabled selected>Select filter method</option>
                       <option value="child_name">Date</option>
@@ -823,14 +824,14 @@
                       <option value="mother_name">Phone Number</option>
                       <option value="mother_name">Sponsor Name</option>
                     </select>
-                  </div>
-                  <button class="btn primary">
+                  </div> -->
+                  <!-- <button class="btn primary">
                     <span>Search <i class="lni lni-search"></i></span>
-                  </button>
+                  </button> -->
                 </form>
               </div>
               <div
-                id="patientSearchPlacement"
+                id=""
                 class="patient-search-placement"
               ></div>
               <a class="btn primary" href="/out_patient/records">
@@ -838,6 +839,10 @@
                 <span>Add OPD</span>
               </a>
             </div>
+
+            <div class="patient_list theme_text">
+            </div>
+
           </div>
         </div>
       </div>
@@ -866,6 +871,7 @@
     <script src="./public/scripts/main.js"></script>
     <script src="./public/scripts/chart.js"></script>
     <script src="./public/scripts/patient.js"></script>
+    <script src="./public/scripts/search-name.js"></script>
     <script src="./public/scripts/components/modal.js"></script>
     <script src="./public/scripts/components/Ajax.js"></script>
   </body>
