@@ -1,0 +1,210 @@
+.patient_table .form-contain {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+
+.patient_table .form-contain .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.patient_table .form-contain .form-group input, select {
+    width: 12rem;
+    background: #F0EFEF;
+    border: 1px solid #BDB9B9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#in-amount {
+    padding: 10px 15px;
+}
+
+.patient_table .form-narate {
+    margin-top: 2rem;
+}
+
+.patient_table .form-narate form textarea > ::placeholder {
+    padding-top: 1rem;
+}
+
+.patient_table .apply button {
+    background-image: linear-gradient( to right bottom, #ff6434, var(--primary-color) ) !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 5px 2rem !important;
+    color: #f1f1f1 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    margin-top: 1rem;
+}
+.patient_table .apply a {
+    color: white;
+}
+
+/* for the click page */
+.patient_table .bg-grey {
+    background: #F0EFEF;
+    padding-bottom: 3rem;
+  }
+
+  .bg-grey .result_group {
+      margin-bottom: 1rem;
+  }
+  
+  .bg-grey .date_result {
+       display: flex;
+       flex-direction: row !important;
+       gap: 2rem;
+       margin-bottom: 2rem;
+  }
+
+  .bg-grey .date_result .edit { 
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        margin-top: .8rem;
+  }
+
+  .bg-grey .date_result .edit > button {
+    background-image: linear-gradient( to right bottom, #ff6434, var(--primary-color) ) !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 5px 1.5rem !important;
+    color: #f1f1f1 !important;
+  }
+  
+  .bg-grey .date_result .edit > div {
+      background: #E3E3E3;
+      
+  }
+
+  .bg-grey .date_result .edit > div > p {
+    color: black !important;
+  }
+
+  .bg-grey .form_result .pending {
+      background: white;
+      border-radius: 6px;
+      width: fit-content;
+      padding: .5rem 1rem;
+     
+  }
+  .bg-grey .form_result .pending > p {
+    color: #000000 !important;
+  }
+  .bg-grey .form_result .pending > div {
+    background: #E3E3E3;
+    width: fit-content;
+    padding: 0 5px;
+  }
+
+  .bg-grey .form_result .pending > div > p {
+    color: #000000 !important;
+  }
+
+  .bg-grey .ready_result {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      background: white;
+      margin-left: 3rem;
+      margin-top: 4px;
+      width: fit-content;
+      padding: 8px 1rem;
+  }
+
+  .bg-grey .ready_result .fes-res, .sec-res {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+  }
+
+  .bg-grey .ready_result .fes-res > p {
+    color: #000000 !important;
+  }
+
+  .bg-grey .ready_result .sec-res > p {
+    color: #000000 !important;
+  }
+
+
+
+  .bg-grey .ready_result .sec-res > button {
+    background-image: linear-gradient( to right bottom, #ff6434, var(--primary-color) ) !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 5px 1.5rem !important;
+    color: #f1f1f1 !important;
+  }
+
+  .bg-grey .ready_result .bg-sp {
+      background: #ECECEC;
+      text-align: center;
+  }
+
+  .bg-grey .sub-result {
+      margin-top: 1rem;
+      margin-left: 3rem;
+  }
+
+  .bg-grey .sub-result > button {
+      background-color: #54943E;
+      color: white;
+      padding: .3rem 2rem;
+      border: none;
+  }
+
+  .bg-grey .ready_form {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .bg-grey .ready_form .comment {
+      display: flex;
+      flex-direction: column;
+  } 
+
+  .bg-grey .ready_form .comment > textarea {
+      width: 30rem;
+  }
+
+  .bg-grey .ready_form .reply > button {
+    background-image: linear-gradient( to right bottom, #ff6434, var(--primary-color) ) !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 5px 2rem !important;
+    margin-top: 1rem;
+    color: white;
+  }
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .patient_table .form-contain {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    }
+
+    .patient_table .form-contain .form-group input, select {
+        width: auto;
+        background: #F0EFEF;
+        border: 1px solid #BDB9B9;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .bg-grey {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
