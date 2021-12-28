@@ -898,64 +898,52 @@
                 <li><a href="">staff apply earning</a></li>
               </ul>
             </div>
-            <!-- <button id="hideUserProfile" class="hide_profile">
-              <i class="lni lni-chevron-up"></i>
-            </button> -->
-            <div class="">
-              <!-- Tab links -->
-            
-
-              <!-- Tab content -->
               <div id="timeline" class="tabcontent">
-               
-
-               <div class="date_form">
-                   <form action="">
-                       <div class="form-contain">
-                           <div class="form-group">
-                            <label for="month">Month</label>
-                            <select name="month" id="">
-                              <option value="select" selected disabled>Select month</option> 
-                              <option value="Jan">January</option>
-                              <option value="Feb">February</option>
-                              <option value="Mar">March</option>
-                              <option value="Apr">April</option>
-                              <option value="May">May</option>
-                              <option value="Jun">June</option>
-                              <option value="Jul">July</option>
-                              <option value="Aug">August</option>
-                              <option value="Sep">September</option>
-                              <option value="Oct">October</option>
-                              <option value="Nov">November</option>
-                              <option value="Dec">December</option>
-                            </select>
-                           </div>
-
-                           <div class="form-group">
-                            <label for="month">Year</label>
-                            <select id="cboYear">
-                                <option value="0" selected disabled hidden>Select Year</option>
+                <div class="date_form">
+                    <form action="" id="payroll_form">
+                        <div class="form-contain">
+                            <div class="form-group">
+                              <label for="month">Month</label>
+                              <select name="month" id="selectMonth">
+                                <option value="select" selected disabled>Select month</option> 
+                                <option value="Jan">January</option>
+                                <option value="Feb">February</option>
+                                <option value="Mar">March</option>
+                                <option value="Apr">April</option>
+                                <option value="May">May</option>
+                                <option value="Jun">June</option>
+                                <option value="Jul">July</option>
+                                <option value="Aug">August</option>
+                                <option value="Sep">September</option>
+                                <option value="Oct">October</option>
+                                <option value="Nov">November</option>
+                                <option value="Dec">December</option>
                               </select>
-                           </div>
-                           <div class="form-group amount">
-                               <label for="amount">Amount</label>
-                               <input type="text" placeholder="please enter amount" class="in-amount" id="in-amount">
+                            </div>
 
-                           </div>
-                         
-                       </div>
-                       <div class="form-narate">
-                           <label for="text-area">Narration</label>
-                           <textarea name="" id="" cols="25" rows="10" placeholder="Please enter details of earning"></textarea>
-                       </div>
-                        <div class="apply">
-                            <button type="submit" ><a href="payroll-staff-click.html">Apply</a> </button>
+                            <div class="form-group">
+                              <label for="month">Year</label>
+                              <select id="cboYear" name="year">
+                                  <option value="0" selected disabled hidden>Select Year</option>
+                                </select>
+                            </div>
+                            <div class="form-group amount">
+                                <label for="amount">Amount</label>
+                                <input type="text" name="amount" placeholder="please enter amount" class="in-amount" id="in-amount">
+
+                            </div>
                         </div>
-                      
-                   </form>
+                        <div class="form-narate">
+                            <label for="text-area">Narration</label>
+                            <textarea name="message" value="message" id="message" cols="25" rows="10" placeholder="Please enter details of earning"></textarea>
+                        </div>
+                          <div class="apply">
+                              <button type="submit" ><a href="payroll-staff-click.html">Apply</a> </button>
+                          </div>
+                        
+                    </form>
 
-               </div>
-              </div>
+                </div>
             </div>
           </div>
         </div>

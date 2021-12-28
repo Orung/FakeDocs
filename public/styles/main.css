@@ -1993,6 +1993,7 @@ textarea {
   font-size: 14px;
   color: var(--dark-color);
 }
+
 .msgContent span,
 p {
   color: #a1a1a1;
@@ -2005,7 +2006,7 @@ p {
   grid-auto-rows: 30px !important;
 }
 .user_menu.msgContent .message {
-  height: 20px !important;
+  height: 40px !important;
   grid-template-columns: 40px 1fr !important;
 }
 .user_menu.msgContent .message .msg__avatar {
@@ -2493,4 +2494,11 @@ p {
   left: 0;
   top: -10%;
   font-weight: 400;
+}
+
+/* navbar > caret > dropdown */
+.openDropDown {
+  display: block !important;
+  transform: translateY(0%);
+  opacity: 1;
 }
