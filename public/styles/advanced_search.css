@@ -49,8 +49,11 @@
 .patient_container  .patient_list {
   border: 2px solid var(--light-color-3);
   border-radius: 20px 20px 20px 20px !important;
+  margin: 10px 30px;
+  width: max-content;
+}
+.patient_container  .patient_list {
   padding: 1rem 2rem;
-  margin: 30px;
 }
 .patient_container .patient_list a:hover {
   color: #ff7e34;
